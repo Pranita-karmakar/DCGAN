@@ -4,6 +4,7 @@ The MNIST database (Modified National Institute of Standards and Technology data
 
 ## Pre-requisite[](url)
 U need  nvidia Gpu to run this install the NVIDIA_CUDA-<#.#>_Samples then ran several instances of the nbody simulation, but they all ran on one GPU 0; GPU 1 was completely idle (monitored using watch -n 1 nvidia-dmi). Checking CUDA_VISIBLE_DEVICES using
+Packages- pytorch with manual seed 42
 
 Run command --echo $CUDA_VISIBLE_DEVICES
 ## steps[](url)
